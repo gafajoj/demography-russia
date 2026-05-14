@@ -22,7 +22,7 @@ def main():
             except Exception as e:
                 print(f"Ошибка: {e}")
         elif choice == "2":
-            filepath = input("Введите путь к CSV файлу с численностью населения: ")
+            filepath = input("Введите путь к CSV файлу с численностью: ")
             try:
                 analyzer = PopulationAnalyzer(filepath)
                 analyzer.run()
